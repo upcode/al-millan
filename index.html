@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <title>Hair by Al Millan</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
   <link rel="stylesheet" type="text/css" href="static/css/style.css" rel="stylesheet">
@@ -9,7 +10,16 @@
   <link rel="stylesheet" type="text/css" href="static/css/materialize/css/materialize.min.css" />
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/index.js"></script>
-  <title>Hair by Al Millan</title>
+  <script>
+    $('form').submit(function (e) {
+    var form = this;
+    e.preventDefault();
+    setTimeout(function () {
+        form.submit();
+    }, 10000); // in milliseconds
+    $("<p>thank you for your submittion</p>").appendTo("body");
+});
+  </script>
 </head>
 
 <body>
