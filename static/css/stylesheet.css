@@ -1,7 +1,45 @@
 /*  <!--- ==Nav Bar ==-->*/
 
 /*  <!--- ==Section 1 Banner==-->*/
+.al {
+  width: 355px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.al {
+	border: 5px solid #eee !important;
+    border-top-color: rgb(238, 238, 238);
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-right-color: rgb(238, 238, 238);
+    border-right-style: solid;
+    border-right-width: 5px;
+    border-bottom-color: rgb(238, 238, 238);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-left-color: rgb(238, 238, 238);
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 0px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+
+.al .image img {
+    width: 70% !important;
+    border-radius: 90% !important;
+    margin-top: 30px;
+}
 
 /*  <!--- ==Section 2 About==-->*/
 
@@ -36,7 +74,39 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 /*  <!--- ==Section 2 Gallary==-->*/
 
 /*  <!--- ==Section 3 Testimonials==-->*/
+ul.testimonial li {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    border: 5px solid #eee;
+    border-top-color: rgb(238, 238, 238);
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-right-color: rgb(238, 238, 238);
+    border-right-style: solid;
+    border-right-width: 5px;
+    border-bottom-color: rgb(238, 238, 238);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-left-color: rgb(238, 238, 238);
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
 
+
+/*TESTIMONIALS*/
+	.testimonial-texts {width:auto;}
+	.testimonials .bx-prev {left: 50%;margin-left: -43px;}
+	.testimonials .bx-next {left: 50%;margin-left:3px;}
 /*  <!--- ==Section 4 Contact==-->*/
 
 /*  <!--- ==Section 6 Footer==-->*/
