@@ -43,7 +43,9 @@
 
 /*  <!--- ==Section 2 About==-->*/
 
-
+.img-slides {
+	height: 700px;!important
+}
 .heading  {
 
 /* Safari */
@@ -69,7 +71,10 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 
-
+.home {
+	margin-top: 10px;
+	padding-top: 20px;
+}
 
 /*  <!--- ==Section 2 Gallary==-->*/
 
