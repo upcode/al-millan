@@ -1,0 +1,42 @@
+/*  <!--- ==Nav Bar ==-->*/
+
+/*  <!--- ==Section 1 Banner==-->*/
+
+
+/*  <!--- ==Section 2 About==-->*/
+
+
+.heading  {
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.intro-text {
+	margin-left:10px;
+	margin-right: 10px;
+}
+
+
+
+
+/*  <!--- ==Section 2 Gallary==-->*/
+
+/*  <!--- ==Section 3 Testimonials==-->*/
+
+/*  <!--- ==Section 4 Contact==-->*/
+
+/*  <!--- ==Section 6 Footer==-->*/
