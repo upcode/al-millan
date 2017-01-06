@@ -1,43 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Hair by Al Millan</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <!--Import Google Icon Font-->
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="static/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="static/css/stylesheet.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="static/css/materialize/css/materialize.css" />
-  <link rel="stylesheet" type="text/css" href="static/css/materialize/css/materialize.min.css" />
-  <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css">
-  <!--   <link rel="stylesheet" href="static/font-awesome/css/font-awesome.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <title>Hair by | Al Millan</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="static/css/custom.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+  <!--   <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css"/>
  -->
-  <script src="js/index.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/index.js"></script>
-  <script>
-  $(".button-collapse").sideNav();
-  </script>
-  <style>
-  #map {
-    width: 100%;
-    height: 400px;
-    background-color: grey;
-  }
-  </style>
 </head>
 
 <body>
-  <!--- =====================NAV BAR================================-->
-  <nav class="teal" role="navigation">
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">Hair by Al  Millan</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><i class="fa fa fa-scissors fa-stack-4x">Hair By Al Millan</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">&nbsp;About</a></li>
         <li><a href="#">&nbsp;Blog</a></li>
@@ -45,68 +26,43 @@
         <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-      <ul class="side-nav" id="mobile-demo">
+      <ul id="nav-mobile" class="side-nav">
         <li><a href="#">About</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Gallary</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  <!--- =====================Slider================================-->
-    <div id="index-banner" class="parallax-container" style="background-image: url('static/images/banner.jpg');">
-       <div class="caption center-align">
-          <h3>Hair by Al Millan | Lasting Impressions</h3>
-          <div class="row center">
-            <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Make Appointment</a>
-            <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Learn More</a>
-          </div>
-        </div>
-    </div>
-      <div class="divider"></div>
-
-<!--- =====================About================================-->
-<section class="about">
-  <div class="container">
-       <div class="col s12 m6 l12">
-            <h1>The Stylist</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-          </div>
-
-    <div class="al">
-      <div class="image" style="background:none;">
-        <img src="static/images/al2.jpg" height: 300px; width: 300px; alt="Al Millan" style="display: inline;">
-      </div>
-      <div class="title">Al Millan</div>
-      <div class="role">Stylist Expert</div>
-      <div class="description">5 years of experience in bearding. You will be in trusted hands.
+  <div id="index-banner" class="parallax-container" style="background-image: url('static/images/banner.jpg');">
+    <div class="section no-pad-bot">
+      <div class="container">
         <br>
-        <br> Email: <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=deen@barber.com" target="_blank">al@millan.com</a></div>
-      <div class="social">
-        <div>
-          <a href="https://twitter.com/premiumcoding"><img src="http://barber.premiumcoding.com/wp-content/uploads/2013/12/barber-twitter-about.png" alt="Twitter"></a>
+        <br>
+        <h1 class="header center teal-text text-lighten-2">Hair By Al Millan</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
         </div>
-        <div>
-          <a href="https://www.facebook.com/PremiumCoding"><img src="http://barber.premiumcoding.com/wp-content/uploads/2013/12/barber-facebook-about.png" alt="Facebook"></a>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Make Appointment</a>
         </div>
-        <div>
-          <a href="http://instagram.com/dreamypixels"><img src="http://barber.premiumcoding.com/wp-content/uploads/2013/12/barber-instagram-icon.png" alt="Pinterest"></a>
-        </div>
-        <div>
-          <a href="https://dribbble.com/gljivec"><img src="http://barber.premiumcoding.com/wp-content/uploads/2013/12/brixton-dribbble-about.png" alt="Dribbble"></a>
-        </div>
+        <br>
+        <br>
       </div>
     </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
-
-
-
+  <div class="divider"></div>
+  <div class="container">
+    <div class="section">
+      <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center teal-text"><i class="fa fa fa-scissors fa-stack-1x"></i><i class="fa fa fa-scissors"></i>
-                    </h2>
+            </h2>
             <h5 class="center">Artisitic Color</h5>
             <p class="light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
           </div>
@@ -132,69 +88,99 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <div class="divider"></div>
-  <!--- =====================BANNER================================-->
-  <div id="index-banner" class="parallax-container" style="background-image: url('static/images/background.jpg');">
-    <div class="section no-pad-bot">
-      <div id="wtimes_92" class="wtimes cf">
-        <ul class="slides-wtimes">
-          <li class="wtime" style="background:#5b8068;color:#fff">
-            <div class="wtime-day">
-              MON </div>
-            <div class="wtime-whours">
-              08:00-15:00 </div>
-          </li>
-          <li class="wtime" style="background:#5b8068;color:#fff">
-            <div class="wtime-day">
-              TUE </div>
-            <div class="wtime-whours">
-              10.00-16.00 </div>
-          </li>
-          <li class="wtime" style="background:#5b8068;color:#fff">
-            <div class="wtime-day">
-              WED </div>
-            <div class="wtime-whours">
-              08:00-15:00 </div>
-          </li>
-          <li class="wtime" style="background:#5b8068;color:#fff">
-            <div class="wtime-day">
-              THU </div>
-            <div class="wtime-whours">
-              08:00-18:00 </div>
-          </li>
-          <li class="wtime" style="background:#5b8068;color:#fff">
-            <div class="wtime-day">
-              FRI </div>
-            <div class="wtime-whours">
-              07:00-19:00 </div>
-          </li>
-          <li class="wtime" style="background:#343434;color:#fff">
-            <div class="wtime-day">
-              SAT </div>
-            <div class="wtime-whours">
-              CLOSED </div>
-          </li>
-          <li class="wtime" style="background:#343434;color:#fff">
-            <div class="wtime-day">
-              SUN </div>
-            <div class="wtime-whours">
-              CLOSED </div>
-          </li>
-        </ul>
-      </div>
-      <div class="parallax"><img src="static/images/background1.jpg" alt="Unsplashed background img 1"></div>
-    </div>
-  </div>
-    <div class="divider"></div>
-
-    <!--- =====================Gallary and Services================================-->
-  <section class="Gallary">
-    <div class="container">
       <div class="row">
         <div class="col s12">
-          <h1>Gallary</h1>
+          <h5 class="center-align">The Stylist</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+          <div class="about">
+            <div class="image about-al-millan" style="background:none;">
+              <img src="static/images/al2.jpg" height: 300px; width: 300px; alt="Al Millan" style="display: inline;">
+            </div>
+            <div class="title">Al Millan</div>
+            <div class="role">Stylist Expert</div>
+            <div class="description">10+. You will be in trusted hands.
+              <br>
+              <br> Email: <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=deen@barber.com" target="_blank">al@millan.com</a></div>
+            <div class="social">
+              <div>
+                <a href="https://twitter.com"></a>
+              </div>
+              <div>
+                <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              </div>
+              <div>
+                <a href="http://instagram.com"></a>
+              </div>
+              <div>
+                <a href="https://dribbble.com"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="parallax-container valign-wrapper" style="background-image: url('static/images/scissors2.jpg');">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <div id="wtimes_92" class="wtimes cf">
+            <ul class="slides-wtimes">
+              <li class="wtime" style="background:#5b8068;color:#fff">
+                <div class="wtime-day">
+                  MON </div>
+                <div class="wtime-whours">
+                  08:00-15:00 </div>
+              </li>
+              <li class="wtime" style="background:#5b8068;color:#fff">
+                <div class="wtime-day">
+                  TUE </div>
+                <div class="wtime-whours">
+                  10.00-16.00 </div>
+              </li>
+              <li class="wtime" style="background:#5b8068;color:#fff">
+                <div class="wtime-day">
+                  WED </div>
+                <div class="wtime-whours">
+                  08:00-15:00 </div>
+              </li>
+              <li class="wtime" style="background:#5b8068;color:#fff">
+                <div class="wtime-day">
+                  THU </div>
+                <div class="wtime-whours">
+                  08:00-18:00 </div>
+              </li>
+              <li class="wtime" style="background:#5b8068;color:#fff">
+                <div class="wtime-day">
+                  FRI </div>
+                <div class="wtime-whours">
+                  07:00-19:00 </div>
+              </li>
+              <li class="wtime" style="background:#343434;color:#fff">
+                <div class="wtime-day">
+                  SAT </div>
+                <div class="wtime-whours">
+                  CLOSED </div>
+              </li>
+              <li class="wtime" style="background:#343434;color:#fff">
+                <div class="wtime-day">
+                  SUN </div>
+                <div class="wtime-whours">
+                  CLOSED </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+  <!--// GALLARY-->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12">
+          <h1>Services</h1>
           <small>Trendy Hair color and styles</small>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
         </div>
@@ -233,7 +219,7 @@
         <div class="col s6">
           <ul class="collapsible popout" data-collapsible="accordion">
             <li>
-              <div class="collapsible-header"><i class="fa fa fa-scissors"></i>Haircuts &#38; Styling</div>
+              <div class="collapsible-header collapsible popout"><i class="fa fa fa-scissors"></i>Haircuts &#38; Styling</div>
               <div class="collapsible-body">
                 <ul class="collection with-header">
                   <li class="collection-item">Women's Haircuts</li>
@@ -301,111 +287,72 @@
               </li>
           </ul>
         </div>
-  </section>
-  <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="static/images/slides/hair07.jpg" class="img-slides">
-        <!-- random image -->
-        <div class="caption center-align">
-          <h3>Hair by Al Millan | Contact Me</h3>
-          <div class="row center">
-            <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Make Appointment</a>
-          </div>
-        </div>
-      </li>
-      <li>
-        <img src="static/images/slides/hair03.jpg" class="img-slides">
-        <!-- random image -->
-        <div class="caption left-align">
-          <h3>Artisitic Color</h3>
-          <h5 class="light grey-text text-lighten-3">tag line</h5>
-        </div>
-      </li>
-      <li>
-        <img src="static/images/slides/hair06.jpg" class="img-slides">
-        <!-- random image -->
-        <div class="caption right-align">
-          <h3>Creative Cut</h3>
-          <h5 class="light grey-text text-lighten-3">tag line</h5>
-        </div>
-      </li>
-      <li>
-        <img src="static/images/slides/hair05.jpg" class="img-slides">
-        <!-- random image -->
-        <div class="caption center-align">
-          <h3>Siginture style</h3>
-          <h5 class="light grey-text text-lighten-3" class="img-slides">tag line</h5>
-        </div>
-      </li>
-      <li>
-        <img src="static/images/slides/hair04.jpg" class="img-slides">
-        <!-- random image -->
-        <div class="caption center-align">
-          <h3>Modern Techiniques</h3>
-          <h5 class="light grey-text text-lighten-3">tag line</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
-  <div class="divider"></div>
-  <!--- =====================Customer Testimonials================================-->
-<!--   <section>
-    <div class="container">
-      <div id="testimonial" class="testimonial">
-        <h2 style="color:#333333" class="titleborderh2">Customers's Testionials</h2>
-        <small>Trendy Hair color and styles</small>
-        <ul class="slides-testimonial">
-          <li class="testimonial_2">
-            <div class="testimonial_2-avatar">
-              <img src="http://barber.premiumcoding.com/wp-content/uploads/2013/12/barber-team-2.jpg">
-            </div>
-            <div class="testimonial_2-description">
-              <div class="testimonial_2-texts">
-                <i class="fa fa-quote-right"></i>
-                <div class="testi-text">Top-notch service. I couldn't have been more pleased. I always leave with a <b>big smile</b> on my face and much more relaxed than when I arrived.</div><i class="fa fa-quote-right"></i>
-              </div>
-              <div class="testimonial_2-author">
-                <span class="author">John Mustachio, Satisfied Customer</span> </div>
-            </div>
-          </li>
-          <li class="testimonial_2">
-            <div class="testimonial_2-avatar">
-              <img src="http://barber.premiumcoding.com/wp-content/uploads/2013/12/barber-team-5.jpg">
-            </div>
-            <div class="testimonial_2-description">
-              <div class="testimonial_2-texts">
-                <i class="fa fa-quote-right"></i>
-                <div class="testi-text">Barber Saloon is a <b>breath of fresh air</b> to the industry. It is bright, modern, stylish and a wonderful environment in which to have a treatment.</div><i class="fa fa-quote-right"></i>
-              </div>
-              <div class="testimonial_2-author">
-                <span class="author">James Dean</span> </div>
-            </div>
-          </li>
-          <li class="testimonial_2">
-            <div class="testimonial_2-avatar">
-              <img src="http://barber.premiumcoding.com/wp-content/uploads/2013/12/barber-team-7.jpg">
-            </div>
-            <div class="testimonial_2-description">
-              <div class="testimonial_2-texts">
-                <i class="fa fa-quote-right"></i>
-                <div class="testi-text">Top-notch service. I couldn't have been more pleased. I always leave with a <b>big smile</b> on my face and much more relaxed than when I arrived.</div><i class="fa fa-quote-right"></i>
-              </div>
-              <div class="testimonial_2-author">
-                <span class="author">Armando </span> </div>
-            </div>
-          </li>
-        </ul>
       </div>
     </div>
-  </section> -->
-  <!--- =====================Contact================================-->
-  <div class="divider"></div>
-  <section class="content contact bg-blue" id="contact">
-    <div class="container">
+    <!--// end section-->
+  </div>
+  <!--// end container-->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="row center">
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="static/images/slides/hair07.jpg" class="img-slides">
+              <!-- random image -->
+              <div class="caption center-align">
+                <h3>Hair by Al Millan | Contact Me</h3>
+                <div class="row center">
+                  <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Make Appointment</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="static/images/slides/hair03.jpg" class="img-slides">
+              <!-- random image -->
+              <div class="caption left-align">
+                <h3>Artisitic Color</h3>
+                <h5 class="light grey-text text-lighten-3">tag line</h5>
+              </div>
+            </li>
+            <li>
+              <img src="static/images/slides/hair06.jpg" class="img-slides">
+              <!-- random image -->
+              <div class="caption right-align">
+                <h3>Creative Cut</h3>
+                <h5 class="light grey-text text-lighten-3">tag line</h5>
+              </div>
+            </li>
+            <li>
+              <img src="static/images/slides/hair05.jpg" class="img-slides">
+              <!-- random image -->
+              <div class="caption center-align">
+                <h3>Siginture style</h3>
+                <h5 class="light grey-text text-lighten-3" class="img-slides">tag line</h5>
+              </div>
+            </li>
+            <li>
+              <img src="static/images/slides/hair04.jpg" class="img-slides">
+              <!-- random image -->
+              <div class="caption center-align">
+                <h3>Modern Techiniques</h3>
+                <h5 class="light grey-text text-lighten-3">tag line</h5>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="divider"></div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+  <div class="container">
+    <div class="section">
       <div class="row">
-        <div class="col-lg-12" id="content">
-          <h1 id="section-contact">Contact</h1> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
         </div>
         <div id="home-section-contact-contact" class="">
           <form role="form" action="https://formspree.io/uma.petersen@gmail.com" method="POST">
@@ -462,105 +409,55 @@
           </form>
         </div>
       </div>
-            <div id="map"></div>
-
     </div>
-  </section>
-  <!--- =====================Footer================================-->
+  </div>
+  <div id="map"></div>
   <footer class="page-footer teal">
     <div class="container">
-      <div class="row teal-grey darken-4">
+      <div class="row">
         <div class="col l6 s12">
+          <h5 class="white-text">Stylist bio</h5>
+          <p class="grey-text text-lighten-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+        </div>
+        <div class="col l3 s12">
           <h5 class="white-text">Connect</h5>
-          <p class="grey-text text-lighten-4">Hair by Al experience the best</p>
-          <i class="fa fa-phone" aria-hidden="true"></i> (+386) 40 123 456
-          <br>
-          <i class="fa fa-envelope" aria-hidden="true"></i> info@hairbyAl.com
-          <br>
-          <i class="fa fa-home" aria-hidden="true"></i> hairbyAl.com
           <ul>
-            <a class="waves-effect waves-light btn">Make Appointment</a>
+            <li>
+              <a class="white-text" href="#!"> <i class="small material-icons">phone</i>(+386) 40 123 456</a>
+            </li>
+            <li><a class="white-text" href="#!"><i class="small material-icons">email</i>
+                @hairbyAl.com</a></li>
+            <li>
+              <a class="white-text" href="#!"><img src="static/icons/instagram.png"><a href="https://instragram.com"> Instagram</a></li>
+            <li>
+              <a class="white-text" href="#!"><img src="static/icons/facebook.png"><a href="https://facebook.com"> Facebook</a></li>
           </ul>
-          <a href="https://twitter.com">
-            <img src="http://barber.premiumcoding.com/wp-content/uploads/2013/12/barber-twitter-about.png" alt="Twitter" data-pin-nopin="true"></a>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Instagram</h5>
-          <div class="row">
-            <div class="col 2">
-              <div class="materialboxed footer" style="background-image: url('/static/images/gallary/hair1.jpg'); height: 80px; width: 68px; left: 0px;">
-              </div>
-              <span></span>
-              <div class="materialboxed footer" style="background-image: url('/static/images/gallary/hair2.jpg'); height: 80px; width: 68px; left: 0px;">
-              </div>
-              <span></span>
-              <div class="materialboxed footer" style="background-image: url('/static/images/gallary/hair3.jpg'); height: 80px; width: 68px; left: 0px;">
-              </div>
-            </div>
-            <div class="col 2">
-              <div class="materialboxed footer" style="background-image: url('/static/images/gallary/hair4.jpg'); height: 80px; width: 68px; left: 0px;">
-              </div>
-              <span></span>
-              <div class="materialboxed footer" style="background-image: url('static/images/gallary/hair5.jpg'); height: 80px; width: 68px; left: 0px;">
-              </div>
-              <span></span>
-              <div class="materialboxed footer" style="background-image: url('static/images/gallary/hair6.jpg'); height: 80px; width: 68px; left: 0px;">
-              </div>
-            </div>
-            <div class="col 2">
-              <div class="materialboxed footer" style="background-image: url('static/images/gallary/hair3.jpg'); height: 80px; width: 68px; left: 0px;">
-              </div>
-              <span></span>
-              <div class="materialboxed footer" style="background-image: url('static/images/gallary/hair3.jpg'); height: 80px; width: 68px; left: 0px;">
-              </div>
-              <span></span>
-              <div class="materialboxed footer" style="background-image: url('static/images/gallary/hair3.jpg'); height: 80px; width: 68px; left: 0px;">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Opening Times</h5>
-          <div class="card blue-grey darken-2">
-            <div class="card-content white-text">
-              <ul>
-                <a class="waves-effect waves-light btn">Make Appointment</a>
-              </ul>
-            </div>
-            <div class="card-action">
-              <div class="opening-times">
-                Monday
-                <span class="exact-time">08:00 - 15:00</span>
-                <br> Tuesday
-                <span class="exact-time">08:00 - 15:00</span>
-                <br> Wednesday
-                <span class="exact-time">08:00 - 15:00</span>
-                <br> Thursday
-                <span class="exact-time">08:00 - 15:00</span>
-                <br> Friday
-                <span class="exact-time">08:00 - 15:00</span>
-                <br> Saturday
-                <span class="exact-time">08:00 - 15:00</span>
-                <br> Sunday
-                <span class="exact-time">08:00 - 15:00</span>
-                <br>
-              </div>
-            </div>
+          <h5 class="white-text">Appointments</h5>
+          <div class="opening-times">
+            <ul>
+              <li>Monday <span class="exact-time">08:00 - 15:00</span></li>
+              <li>Tuesday <span class="exact-time">08:00 - 15:00</span></li>
+              <li>Wednesday <span class="exact-time">08:00 - 15:00</span></li>
+              <li>Thursday <span class="exact-time">08:00 - 15:00</span></li>
+              <li>Friday <span class="exact-time">08:00 - 15:00</span></li>
+              <li>Saturday <span class="exact-time">08:00 - 15:00</span></li>
+              <li>Sunday <span class="exact-time">08:00 - 15:00</span></li>
+            </ul>
+            <a class="waves-effect waves-light btn">Make Appointment</a>
           </div>
         </div>
       </div>
       <div class="footer-copyright">
         <div class="container">
-          Hair by Al Millan &copy;2016 <a class="brown-text text-lighten-3" href="umapetersen.com">Created by up[code]</a>
-        </div>
+          Hair by | Al Millan &copy;2016 <a class="brown-text text-lighten-3" href="umapetersen.com">Created by up[code]</a></div>
       </div>
-    </div>
   </footer>
-  <!-- Footer -->
-  <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="static/css/materialize/js/materialize.min.js"></script>
-  <script type="text/javascript" src="static/css/materialize/js/materialize.min.js"></script>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="static/js/materialize.js"></script>
+  <script src="static/js/init.js"></script>
   <script>
   $(document).ready(function() {
     $('.slider').slider({
@@ -568,9 +465,7 @@
     });
   });
   </script>
-  <script>
-  $(".button-collapse").sideNav();
-  </script>
+  <!--// google map-->
   <script>
   function initMap() {
     var uluru = {
